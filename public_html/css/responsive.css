@@ -1,0 +1,120 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+
+
+    .service .service-item .section-title:after{
+    margin-left: 0;
+}
+
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+
+
+    
+
+    .home, 
+    .about,
+    .portfolio,
+    .subscribe{
+        margin-bottom: 60px;
+    }
+    
+    .service .service-item .service-item-icon span{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    
+    font-size: 40px;
+
+}
+.team .section-description{ 
+    margin-bottom: 60px;
+}
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    .navbar-light .navbar-nav a.nav-link{
+        border-bottom: none;
+    }
+
+    .home{
+        margin-bottom: 80px;
+    }
+    .home .home-content{
+        background-color: transparent;
+        padding: 20px;
+    }
+
+
+    .about,
+    .service,
+    .portfolio, 
+    .subscribe{
+        margin-bottom: 90px;
+    }
+
+    .service .container > p{
+        margin-bottom: 60px;
+    }
+    
+    .service .service-item .service-item-icon span{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+
+.team .section-description,
+.contact .section-description{ 
+    margin-bottom: 80px;
+}
+
+
+main{
+    padding-bottom: 84px;
+}
+
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    .container{
+        max-width: 1114px;
+    }
+
+    .home{
+        margin-bottom: 114px;
+    }
+
+
+
+    .about{
+        margin-bottom: 128px;
+    }
+    
+    .portfolio{
+        margin-bottom: 100px;
+    }
+
+    .subscribe{
+        margin-bottom: 140px;
+    }
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+
+    .container{
+        max-width: 1114px;
+    }
+
+}
